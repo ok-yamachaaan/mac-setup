@@ -26,7 +26,7 @@ fi
 
 if [ ! `which ansible` ]; then
 echo "==>   Installing ansible..."
-sudo pip install ansible
+brew install ansible
 fi
 
 touch $SETUP_INIT
