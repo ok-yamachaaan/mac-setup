@@ -1,0 +1,9 @@
+dotfiles:
+    - { src: {{dotfiles_dir}}/_bash_profile", dest: {{ansible_user_dir}/.bash_profile }
+    - { src: {{dotfiles_dir}}/_bashrc", dest: {{ansible_user_dir}/.bashrc }
+    - { src: {{dotfiles_dir}}/_vimrc", dest: {{ansible_user_dir}/.vimrc }
+    - { src: {{dotfiles_dir}}/_gvimrc", dest: {{ansible_user_dir}/.gvimrc }
+    - { src: {{dotfiles_dir}}/_tmux.conf", dest: {{ansible_user_dir}/.tmux.conf }
+    - { src: {{dotfiles_dir}}/_fish.conf", dest: {{ansible_user_dir}/.config/fish/fishfile }
+    - { src: {{dotfiles_dir}}/_fish.alias", dest: {{ansible_user_dir}/.config/fish/conf.d/alias.fish }
+    - { src: {{dotfiles_dir}}/_fish.z", dest: {{ansible_user_dir}/.config/fish/conf.d/z.fish }

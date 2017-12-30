@@ -1,0 +1,111 @@
+---
+homebrew_taps:
+    - { tap: caskroom/cask }
+
+homebrew_cask_packages:
+    - { name: macvim }
+    - { name: iterm2 }
+    - { name: google-japanese-ime }
+    - { name: java }
+    - { name: karabiner-elements }
+    - { name: kindle }
+    - { name: xquartz }
+    - { name: alfred }
+    - { name: slack }
+    - { name: skype }
+    - { name: docker }
+    - { name: visual-studio-code }
+    - { name: wireshark }
+    - { name: filezilla }
+    - { name: firefox }
+    - { name: google-chrome }
+    - { name: hyperswitch }
+    - { name: dash }
+    - { name: bettertouchtool }
+    - { name: skitch }
+    - { name: sequel-pro }
+      
+      
+
+brew_packages:
+    - name: apr
+    - name: apr-util
+    - name: autoconf
+    - name: automake
+    - name: awk
+    - name: bison27
+    - name: bison@2.7
+    - name: boost
+    - name: cairo
+    - name: coreutils
+    - name: ctags
+    - name: curl
+    - name: doxygen
+    - name: fish
+    - name: fisherman
+    - name: fontconfig
+    - name: fontforge
+    - name: freetype
+    - name: fzf
+    - name: fzy
+    - name: gd
+    - name: gdbm
+    - name: gettext
+    - name: git
+    - name: glib
+    - name: gmp
+    - name: gobject-introspection
+    - name: gradle
+    - name: gradle@2.14
+    - name: graphviz
+    - name: grc
+    - name: harfbuzz
+    - name: highlight
+    - name: httpd
+    - name: httpd24
+    - name: hugo
+    - name: icu4c
+    - name: intltool
+    - name: jpeg
+    - name: libevent
+    - name: libffi
+    - name: libpng
+    - name: libtiff
+    - name: libtool
+    - name: libxml2
+    - name: libyaml
+    - name: lua
+    - name: mcrypt
+    - name: mhash
+    - name: mycli
+    - name: mysql
+    - name: nkf
+    - name: oniguruma
+    - name: openssl
+    - name: openssl@1.1
+    - name: pango
+    - name: pcre
+    - name: pcre2
+    - name: peco
+    - name: php-build
+    - name: phpenv
+    - name: pixman
+    - name: pkg-config
+    - name: pwgen
+    - name: pyenv
+    - name: python
+    - name: rbenv
+    - name: re2c
+    - name: readline
+    - name: reattach-to-user-namespace
+    - name: ricty
+    - name: ruby-build
+    - name: slackcat
+    - name: sqlite
+    - name: tig
+    - name: tmux
+    - name: tree
+    - name: webp
+    - name: wget
+    - name: zsh
+

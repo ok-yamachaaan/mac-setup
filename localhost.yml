@@ -1,0 +1,8 @@
+---
+- name: Setup My Mac
+  hosts: localhost
+  connection: local
+  roles:
+      - { role: brew, tags: [ brew ] }
+      - { role: env,      tags: [ env ] }
+      - { role: mac,      tags: [ mac ] }
