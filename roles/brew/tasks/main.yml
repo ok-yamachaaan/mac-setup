@@ -17,6 +17,5 @@
 
 - name: cask applications
   homebrew_cask:
-    name: {{ item.name }}
-  state: present
-  with_items: "{{ cask_applications }}"
+    name: "{{ item.name }}"
+  with_items: "{{ brew_cask_packages }}"

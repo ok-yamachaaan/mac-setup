@@ -18,9 +18,10 @@ fi
 if [ ! `which pip` ]; then
 echo "==>   Installing pip..."
 brew install pyenv
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 pyenv install anaconda3-4.0.0
 pyenv global anaconda3-4.0.0
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+source ~/.bash_profile
 sudo pip install -r requirements.txt
 fi
 

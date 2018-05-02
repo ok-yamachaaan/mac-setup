@@ -1,29 +1,30 @@
 ---
-homebrew_taps:
-    - { tap: caskroom/cask }
+brew_taps:
+    - caskroom/cask
+    - fisherman/tap
 
-homebrew_cask_packages:
-    - { name: macvim }
-    - { name: iterm2 }
-    - { name: google-japanese-ime }
-    - { name: java }
-    - { name: karabiner-elements }
-    - { name: kindle }
-    - { name: xquartz }
-    - { name: alfred }
-    - { name: slack }
-    - { name: skype }
-    - { name: docker }
-    - { name: visual-studio-code }
-    - { name: wireshark }
-    - { name: filezilla }
-    - { name: firefox }
-    - { name: google-chrome }
-    - { name: hyperswitch }
-    - { name: dash }
-    - { name: bettertouchtool }
-    - { name: skitch }
-    - { name: sequel-pro }
+brew_cask_packages:
+    - name: macvim
+    - name: iterm2
+    - name: google-japanese-ime
+    - name: java
+    - name: karabiner-elements
+    #- name: kindle
+    - name: xquartz
+    - name: alfred
+    - name: slack
+    - name: skype
+    - name: docker
+    - name: visual-studio-code
+    - name: wireshark
+    - name: filezilla
+    - name: firefox
+    - name: google-chrome
+    - name: hyperswitch
+    - name: dash
+    - name: bettertouchtool
+    - name: skitch
+    - name: sequel-pro
       
       
 
@@ -55,8 +56,6 @@ brew_packages:
     - name: glib
     - name: gmp
     - name: gobject-introspection
-    - name: gradle
-    - name: gradle@2.14
     - name: graphviz
     - name: grc
     - name: harfbuzz
@@ -87,8 +86,6 @@ brew_packages:
     - name: pcre
     - name: pcre2
     - name: peco
-    - name: php-build
-    - name: phpenv
     - name: pixman
     - name: pkg-config
     - name: pwgen
@@ -98,8 +95,6 @@ brew_packages:
     - name: re2c
     - name: readline
     - name: reattach-to-user-namespace
-    - name: ricty
-    - name: ruby-build
     - name: slackcat
     - name: sqlite
     - name: tig

@@ -5,8 +5,8 @@
       dest: "{{ item.dest }}"
       force: yes
       state: link
-      with_items:
-          - "{{ dotfiles }}"
+  with_items: "{{ dotfiles }}"
+  tags: dotfiles
 
 - name: Change login shell to fish
   become: yes
